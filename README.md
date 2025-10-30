@@ -1,3 +1,12 @@
+# FORK of the original @mapbox/mbtiles
+
+> [!IMPORTANT]
+> This is a fork of [@mapbox/mbtiles](https://www.npmjs.com/package/@mapbox/mbtiles?activeTab=dependencies) with sqlite3 dependency replaced with [node:sqlite](https://nodejs.org/api/sqlite.html).
+
+The primary goals is to provide [Signal K Server Charts Plugin](https://github.com/SignalK/charts-plugin) access to mbtiles data without a native dependency that requires error prone compilation on low powered devices.
+
+See also [PR to upstream](https://github.com/mapbox/node-mbtiles/pull/118).
+
 # mbtiles
 
 Node.js utilities and [tilelive](https://github.com/mapbox/tilelive.js) integration for the [MBTiles](https://github.com/mapbox/mbtiles-spec) format.

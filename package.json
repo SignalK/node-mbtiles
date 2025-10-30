@@ -1,7 +1,7 @@
 {
-  "name": "@signalk/node-mbtiles",
-  "version": "0.12.2",
-  "description": "Utilities and tilelive integration for the MBTiles format.",
+  "name": "@signalk/mbtiles",
+  "version": "0.1.1",
+  "description": "Utilities and tilelive integration for the MBTiles format. FORK of @mapbox/mbtiles with sqlite3 dependency replaced with node:sqlite",
   "keywords": [
     "map",
     "mbtiles"
@@ -14,7 +14,7 @@
   "main": "./lib/mbtiles",
   "repository": {
     "type": "git",
-    "url": "http://github.com/mapbox/node-mbtiles.git"
+    "url": "http://github.com/signalk/node-mbtiles.git"
   },
   "contributors": [
     "Tom MacWright <tmcw>",
